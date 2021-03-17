@@ -58,7 +58,7 @@ function Contact(props) {
           <Grid item xs={12}>
             <Grid container spacing={2}>
               <Grid item xs={12}>
-                <div><input type="text" className="w-100" style={{padding: 10, borderRadius: 5}} placeholder="Name" name="name" onChange={inputChange} value={form.name}/></div>
+                <div><input  type="text" className="w-100 inputText" style={{padding: 10, borderRadius: 5}} placeholder="Name" name="name" onChange={inputChange} value={form.name}/></div>
               
                 {error.name && (
                   <Typography className="input-error mt-2" style={{color: "red"}}>{error.name}</Typography>
@@ -66,13 +66,13 @@ function Contact(props) {
               </Grid>
               <Grid item xs={12} >
                
-                <div><input type="text" className="w-100" style={{padding: 10, borderRadius: 5}} placeholder="Email" name="email" onChange={inputChange} value={form.email}/></div>
+                <div><input type="text" className="w-100 inputText" style={{padding: 10, borderRadius: 5}} placeholder="Email" name="email" onChange={inputChange} value={form.email}/></div>
                 {error.email && (
                   <Typography className="input-error mt-2"  style={{color: "red"}}>{error.email}</Typography>
                 )}
               </Grid>
               <Grid item xs={12}>
-                <textarea className="w-100" placeholder="Message" rows={4} style={{ borderRadius: 5 }}></textarea>
+                <textarea className="w-100 inputText" placeholder="Message" rows={4} style={{ borderRadius: 5 }}></textarea>
                
               </Grid>
               <Grid item xs={12} className="mt-3">

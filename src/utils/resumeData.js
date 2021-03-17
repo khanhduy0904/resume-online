@@ -18,23 +18,23 @@ export default {
     phone: "0349 997 283",
     socials: {
         Facebook: {
-            link: "https://www.facebook.com",
+            link: "https://www.facebook.com/profile.php?id=100010640521241",
             text: "myFacebook",
             icon: <FacebookIcon />,
         },
         GitHub: {
-            link: "https://www.facebook.com",
+            link: "https://github.com/khanhduy0904?tab=repositories",
             text: "myGithub",
             icon: <GitHubIcon />,
         },
         Twitter: {
-            link: "https://www.facebook.com",
+            link: "https://twitter.com/twitter?lang=vi",
             text: "myTwitter",
             icon: <TwitterIcon />,
         },
         LinkedIn: {
-            link: "https://www.facebook.com",
-            text: "Duyblabla",
+            link: "https://www.linkedin.com/",
+            text: "myLinkedIn",
             icon: <LinkedInIcon />,
         }
 
@@ -44,7 +44,7 @@ export default {
         {
             title: "Intership - CFD",
             date: "1/2021 - 3/2021",
-            description: "Studying and working as an intern in CFD"
+            description: "Studying and working as an intern at CFD"
         },
     ],
     educations: [
@@ -105,11 +105,12 @@ export default {
                 library: "React",
                 link: "https://ádasdas",
                 member: 1,
-                position: "Front End Developer"
+                position: "Front End Developer",
+                technology: "HTML, CSS, React-Hook, Context, React-Router-Dom, Fetch Api"
             },
             projectFunc: {
                 auth: "Login and Register the account",
-                courseRegister: "Register courses",
+                courseRegister: "Register CFD courses",
                 changeInfo: "Change user information",
                 reponsive: "Responsive is suitable for all screen types"
             }
@@ -123,7 +124,8 @@ export default {
                 library: "React",
                 link: "https://ádasdas",
                 member: 1,
-                position: "Front End Developer"
+                position: "Front End Developer",
+                technology: "HTML, CSS, React-Hook, Material-ui, React-Router-Dom"
             },
             projectFunc: {
                 changeTheme: "Change theme color in website use css variable",

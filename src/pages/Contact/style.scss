@@ -18,4 +18,11 @@
             }
         }
     }
+   
+}
+.inputText{
+    border: 0.5px solid #ccc;
+    &:focus{
+        outline: none;
+    }
 }
