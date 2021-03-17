@@ -89,7 +89,7 @@ export default {
                 position: "Front End Developer"
             },
             projectFunc: {
-                auth: "You can login, logout and also create a new account",
+                auth: "Login, logout and also create a new account",
                 cart: "Add to cart, increment, decrement or remove product item",
                 search: "Search the keyword you want to find",
                 checkout: "ádasd",
