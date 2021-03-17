@@ -77,25 +77,25 @@ export default {
 
     ],
     projects: [
-        {
-            title: "Shoper",
-            slug: "shoper",
-            image: "/img/shoper.png",
-            projectInfo: {
-                name: "Shoper",
-                library: "React",
-                link: "https://ádasdas",
-                member: 1,
-                position: "Front End Developer"
-            },
-            projectFunc: {
-                auth: "Login, logout and also create a new account",
-                cart: "Add to cart, increment, decrement or remove product item",
-                search: "Search the keyword you want to find",
-                checkout: "ádasd",
-                reponsive: "Responsive is suitable for all screen types",
-            }
-        },
+        // {
+        //     title: "Shoper",
+        //     slug: "shoper",
+        //     image: "/img/shoper.png",
+        //     projectInfo: {
+        //         name: "Shoper",
+        //         library: "React",
+        //         link: "https://ádasdas",
+        //         member: 1,
+        //         position: "Front End Developer"
+        //     },
+        //     projectFunc: {
+        //         auth: "Login, logout and also create a new account",
+        //         cart: "Add to cart, increment, decrement or remove product item",
+        //         search: "Search the keyword you want to find",
+        //         checkout: "ádasd",
+        //         reponsive: "Responsive is suitable for all screen types",
+        //     }
+        // },
         {
             title: "CFD",
             slug: "cfd",
