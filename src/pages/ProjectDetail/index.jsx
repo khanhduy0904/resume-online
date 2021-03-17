@@ -3,7 +3,6 @@ import React from 'react';
 import myImage from "../../assets/img/cfd.png";
 import "./style.scss";
 import CustomButton from "../../components/Button/Button";
-import StarRating from '../../components/StarRating';
 import { useRouteMatch } from 'react-router';
 import resumeData from "../../utils/resumeData";
 function ProjectDetail(props) {
@@ -82,7 +81,7 @@ function ProjectDetail(props) {
     
     
                 </Grid>
-                <Grid container className="section pb-45 top_30">
+                {/* <Grid container className="section pb-45 top_30">
                     <Grid item className="section_title mb_30">
                         <span className="theme_span"></span>
                         <Typography variant="h6" className="section_title-text">Comment</Typography>
@@ -94,7 +93,7 @@ function ProjectDetail(props) {
                             <input type="text" placeholder="comment" name="abc" className="col-sm-12 mt-3 mb-2 abc"></input>
                         </div>
                     </Grid>
-                </Grid>
+                </Grid> */}
             </div>
         );
     }else if(routeMath.params.slug === "cfd"){
@@ -251,7 +250,7 @@ function ProjectDetail(props) {
 
 
             </Grid>
-            <Grid container className="section pb-45 top_30">
+            {/* <Grid container className="section pb-45 top_30">
                 <Grid item className="section_title mb_30">
                     <span className="theme_span"></span>
                     <Typography variant="h6" className="section_title-text">Comment</Typography>
@@ -263,7 +262,7 @@ function ProjectDetail(props) {
                         <input type="text" placeholder="comment" name="abc" className="col-sm-12 mt-3 mb-2 abc"></input>
                     </div>
                 </Grid>
-            </Grid>
+            </Grid> */}
         </div>
     );
 }
