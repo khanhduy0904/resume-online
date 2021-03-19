@@ -10,7 +10,7 @@ function CustomButton({ text, icon,link, href }) {
       href={href}
     >
       {
-        link ? <a href ="#" className="linkProject"><span className="btn-text">{text}</span></a> :  <span className="btn-text">{text}</span>
+        link ? <a href ={link} className="linkProject"><span className="btn-text">{text}</span></a> :  <span className="btn-text">{text}</span>
       }
       {/* <span className="btn-text">{text}</span> */}
      

@@ -103,7 +103,7 @@ export default {
             projectInfo: {
                 name: "CFD Training",
                 library: "React",
-                link: "https://ádasdas",
+                link: "https://cfd-training.vercel.app",
                 member: 1,
                 position: "Front End Developer",
                 technology: "HTML, CSS, React-Hook, Context, React-Router-Dom, Fetch Api"
@@ -122,7 +122,7 @@ export default {
             projectInfo: {
                 name: "Resume Online",
                 library: "React",
-                link: "https://ádasdas",
+                link: "https://resume-online-three.vercel.app",
                 member: 1,
                 position: "Front End Developer",
                 technology: "HTML, CSS, React-Hook, Material-ui, React-Router-Dom"

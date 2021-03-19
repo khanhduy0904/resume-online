@@ -271,7 +271,7 @@ function ProjectDetail(props) {
                 </div>
             </div>
             <div className="project-demo" >
-                <CustomButton text={"View Demo"} link={true} />
+                <CustomButton text={"View Demo"} link={dataCFD.projectInfo.link} />
             </div>
             <Grid container className="section pb-45 top_30">
                 <Grid item className="section_title mb_30">
@@ -289,7 +289,7 @@ function ProjectDetail(props) {
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Link</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href={dataCFD.projectInfo.link} target="_blank">adssdsads</a></p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href={dataCFD.projectInfo.link} target="_blank">{dataCFD.projectInfo.link}</a></p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Member</strong>
@@ -347,7 +347,7 @@ function ProjectDetail(props) {
                 </div>
             </div>
             <div className="project-demo" >
-                <CustomButton text={"View Demo"} link={true} />
+                <CustomButton text={"View Demo"} link={dataResume.projectInfo.link} />
             </div>
             <Grid container className="section pb-45 top_30">
                 <Grid item className="section_title mb_30">
@@ -365,7 +365,7 @@ function ProjectDetail(props) {
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Link</strong>
-                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href="https://resume-online-three.vercel.app/">https://resume-online-three.vercel.app/</a></p>
+                        <p className="col-9" style={{ wordBreak: "break-word" }}><a href={dataResume.projectInfo.link}>{dataResume.projectInfo.link}</a></p>
                     </div>
                     <div className="row mt-2">
                         <strong className="col-3" style={{ textAlign: "right" }}>Project Member</strong>
